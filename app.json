@@ -8,21 +8,21 @@
   "success_url": "/",
   "stack": "container",
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": {Gifted~PzpmFQ7S#4wj2g6UuYbiBzFrGuy4AJ42Z5bv55VvySedfRY9EHP8
       "description": "Your session id. Must Start with Gifted~",
       "required": true
     },
-    "MODE": {
+    "MODE": {true
       "description": "set Mode  to public or private",
-      "required": false,
-      "value": "private"
+      "required": true,
+      "value": "privet"
     },
-    "OWNER_NAME": {
+    "OWNER_NAME": {tom
       "description": "Put Owner Name Here",
       "required": true,
       "value": "Gifted Tech"
     },
-    "OWNER_NUMBER": {
+    "OWNER_NUMBER": {8001456527
       "description": "Put Owner Number Here",
       "required": true,
       "value": "254762016957"
@@ -32,17 +32,17 @@
       "required": false,
       "value": "254762016957,254728746852,254742063632"
     },
-    "AUTO_READ_STATUS": {
+    "AUTO_READ_STATUS": {true
       "description": "Make it true if you want bot to view status else leave blank",
       "required": false,
       "value": "true"
     },
-    "AUTOLIKE_STATUS": {
+    "AUTOLIKE_STATUS": {true
       "description": "Make it true if you want bot to read and like status else leave blank",
       "required": false,
       "value": "true"
     },
-    "AUTOLIKE_EMOJI": {
+    "AUTOLIKE_EMOJI": {true
       "description": "Input your custom status like emoji else leave blank to use default => 💚",
       "required": false,
       "value": "💚"
@@ -61,24 +61,24 @@
       "description": "Make it true if you want bot to always read messages else leave blank",
       "required": false
     },
-    "AUTO_TYPING": {
+    "AUTO_TYPING": {true
       "description": "Make it true if you want bot to always show typing else leave blank",
       "required": false
     },
-    "AUTO_RECORDING": {
+    "AUTO_RECORDING": {true
       "description": "Make it true if you want bot to always show recording audio else leave blank",
       "required": false
     },
-    "ALWAYS_ONLINE": {
+    "ALWAYS_ONLINE": {false
       "description": "Make it true if you want bot to show always online else leave blank",
       "required": false
     },
-    "AUTO_BLOCK": {
+    "AUTO_BLOCK": {true
       "description": "Provide country codes you want the bot to automatically block else leave blank",
       "required": false,
       "value": "212,99,90"
     },
-    "AUTO_REJECT_CALLS": {
+    "AUTO_REJECT_CALLS": {true
       "description": "Make it true if you want to automatically reject calls else leave blank",
       "required": false
     },
